@@ -3,7 +3,6 @@ from datetime import datetime
 import time
 import twconfig as cfg
 
-# https://marcobonzanini.com/2015/03/09/mining-twitter-data-with-python-part-2/
 # run every 15 minutes because of api rate limiting.
 
 ckey = cfg.twitter['consumer_key']
