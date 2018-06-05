@@ -1,0 +1,13 @@
+body {
+    background-color: powderblue;
+    /*font-family: "Times New Roman", Times, serif;*/
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 60px;
+}
+
+.parent {display: table;}
+
+.tweet {
+	display: table-cell;
+    vertical-align: middle;
+}

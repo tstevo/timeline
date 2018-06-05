@@ -1,0 +1,61 @@
+html, body {
+    height:100%;
+}
+
+body {
+    transition: background 0.8s; /* .5s how long transitions shoould take */
+    overflow:hidden;
+}
+
+html { 
+	font-size: 100%; // this is usually 16px by default 
+}
+
+h1 { 
+	font-size: 4em; 
+}
+
+img {
+  -webkit-filter: grayscale(100%);
+  background-blend-mode: multiply;
+  display: inline;
+}
+
+.row{
+	height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.dashed{
+	border-style: dashed;
+	border-width: thick;
+	padding-left: 5px;  
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.containerY{
+	max-width: 40vw;
+	margin: 5px auto 5px auto;
+}
+
+.containerN{
+	width: auto;
+}
+
+.center-image{
+	max-width: 100%;
+	max-height: 50vh;
+	overflow: hidden;
+	text-align: center;
+}
+
+.material-icons.md-dark { 
+	color: rgba(0, 0, 0, 0.7); 
+}
+
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
